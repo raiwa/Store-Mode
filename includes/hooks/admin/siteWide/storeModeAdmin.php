@@ -3,11 +3,13 @@
   $Id: storeMode.php
   $Loc: catalog/includes/hooks/admin/siteWide/
 
-  Store Mode 1.4.2
+  Store Mode 1.5.0
   by @raiwa
   info@oscaddons.com
   www.oscaddons.com
-
+  
+  updated for Phoenix Pro by @ecartz
+  
   Copyright (c) 2021, Rainer Schmied
   All rights reserved.
 
@@ -21,7 +23,7 @@
 
 class hook_admin_siteWide_storeModeAdmin {
 
-  public $version = '1.4.2';
+  public $version = '1.5.0';
 
   public function listen_injectBodyStart() {
 

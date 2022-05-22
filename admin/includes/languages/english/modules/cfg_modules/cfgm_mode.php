@@ -3,9 +3,12 @@
   $Id: cfgm_store.php
   $Loc: catalog/admin/includes/languages/english/modules/cfg_modules/
 
+  Store Mode 1.5.0
   by @raiwa
   info@oscaddons.com
   www.oscaddons.com
+  
+  updated for Phoenix Pro by @ecartz
 
   CE Phoenix, E-Commerce made Easy
   https://phoenixcart.org

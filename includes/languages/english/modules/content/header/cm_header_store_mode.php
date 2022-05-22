@@ -3,10 +3,12 @@
   $Id: cm_header_store_mode.php
   $Loc: catalog/includes/languages/espanol/modules/content/header/
 
-  Store Mode 1.4.2
+  Store Mode 1.5.0
   by @raiwa
   info@oscaddons.com
   www.oscaddons.com
+  
+  updated for Phoenix Pro by @ecartz
 
   Copyright (c) 2021, Rainer Schmied
   All rights reserved.

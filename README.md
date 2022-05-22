@@ -2,7 +2,7 @@
 ---------------------------------
 
 Compatibility: Phoenix Cart 1.0.8.8+
-Tested with Phoenix 1.0.8.8
+Tested with Phoenix 1.0.8.14
 PHP 7.0-7.4
 
 

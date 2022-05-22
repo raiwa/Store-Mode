@@ -3,10 +3,12 @@
   $Id: st_store_mode.php
   $Loc: catalog/includes/modules/header_tags/
 
-  Store Mode 1.4.3
+  Store Mode 1.5.0
   by @raiwa
   info@oscaddons.com
   www.oscaddons.com
+  
+  updated for Phoenix Pro by @ecartz
 
   Copyright (c) 2021, Rainer Schmied
   All rights reserved.
@@ -57,7 +59,7 @@
       $config_parameters = [
         static::CONFIG_KEY_BASE . 'VERSION_INSTALLED' => [
           'title' => 'Current Version',
-          'value' => '1.4.3',
+          'value' => '1.5.0',
           'desc' => 'Version info. It is read only',
           'set_func' => 'st_store_mode::readonly(',
         ],

@@ -3,10 +3,12 @@
   $Id: storeMode.php
   $Loc: catalog/includes/hooks/shop/system/
 
-  Store Mode 1.4.4
+  Store Mode 1.5.0
   by @raiwa
   info@oscaddons.com
   www.oscaddons.com
+  
+  updated for Phoenix Pro by @ecartz
 
   Copyright (c) 2021, Rainer Schmied
   All rights reserved.
@@ -21,7 +23,7 @@
 
 class hook_shop_system_storeMode {
 
-  public $version = '1.4.4';
+  public $version = '1.5.0';
 
   public function listen_startApplication() {
 

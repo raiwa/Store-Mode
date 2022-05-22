@@ -3,10 +3,12 @@
   $Id: storeMode.php
   $Loc: catalog/includes/languages/english/hooks/shop/system/
 
-  Store Mode 1.4.2
+  Store Mode 1.5.0
   by @raiwa
   info@oscaddons.com
   www.oscaddons.com
+  
+  updated for Phoenix Pro by @ecartz
 
   Copyright (c) 2021, Rainer Schmied
   All rights reserved.
