@@ -3,7 +3,7 @@
   $Id: cfgm_store.php
   $Loc: catalog/admin/includes/languages/english/modules/cfg_modules/
 
-  Store Mode 1.5.0
+  Store Mode 1.0.8.6
   by @raiwa
   info@oscaddons.com
   www.oscaddons.com

@@ -3,7 +3,7 @@
   $Id: ht_store_mode.php
   $Loc: catalog/includes/languages/english/modules/header_tags/
 
-  Store Mode 1.5.0
+  Store Mode 1.0.8.6
   by @raiwa
   info@oscaddons.com
   www.oscaddons.com
