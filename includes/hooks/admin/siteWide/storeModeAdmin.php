@@ -3,7 +3,7 @@
   $Id: storeMode.php
   $Loc: catalog/includes/hooks/admin/siteWide/
 
-  Store Mode 1.5.0
+  Store Mode 1.0.8.8
   by @raiwa
   info@oscaddons.com
   www.oscaddons.com
@@ -23,7 +23,7 @@
 
 class hook_admin_siteWide_storeModeAdmin {
 
-  public $version = '1.5.0';
+  public $version = '1.0.8.8';
 
   public function listen_injectBodyStart() {
 
