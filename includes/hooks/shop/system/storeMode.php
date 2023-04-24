@@ -21,7 +21,7 @@
   Released under the GNU General Public License
 */
 
-class hook_shop_siteWide_storeMode {
+class hook_shop_system_storeMode {
 
   public $version = '1.5.1';
 
