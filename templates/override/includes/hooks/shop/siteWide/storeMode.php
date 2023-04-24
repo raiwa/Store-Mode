@@ -3,7 +3,7 @@
   $Id: storeMode.php
   $Loc: catalog/includes/hooks/shop/system/
 
-  Store Mode 1.0.8.8
+  Store Mode 1.5.1
   by @raiwa
   info@oscaddons.com
   www.oscaddons.com
@@ -21,11 +21,11 @@
   Released under the GNU General Public License
 */
 
-class hook_shop_system_storeMode {
+class hook_shop_siteWide_storeMode {
 
-  public $version = '1.0.8.8';
+  public $version = '1.5.1';
 
-  public function listen_startApplication() {
+  public function listen_injectRedirects() {
 
     if ( defined('MODULE_STORE_MODE_STATUS') && MODULE_STORE_MODE_STATUS == 'True' ) {
       $this->load_lang();
@@ -97,7 +97,7 @@ class hook_shop_system_storeMode {
       } elseif ( defined('NAVBAR_TITLE') && NAVBAR_TITLE !='' ) {
         $page_name = NAVBAR_TITLE;
       } elseif ( defined('HEADER_TITLE') && HEADER_TITLE !='' ) {
-        $page_name = NAVBAR_TITLE;
+        $page_name = HEADER_TITLE;
       }
 
       $GLOBALS['messageStack']->add_session('store_mode', sprintf(MODULE_STORE_MODE_REDIRECT_MESSAGE, $page_name) . '<br><br>' . $this->get_offline_time(), 'alert');
