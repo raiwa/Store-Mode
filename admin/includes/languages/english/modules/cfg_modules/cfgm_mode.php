@@ -3,7 +3,7 @@
   $Id: cfgm_store.php
   $Loc: catalog/admin/includes/languages/english/modules/cfg_modules/
 
-  Store Mode 1.0.8.8
+  Store Mode 1.5.2
   by @raiwa
   info@oscaddons.com
   www.oscaddons.com
@@ -18,4 +18,4 @@
   Released under the GNU General Public License
 */
 
-const MODULE_CFG_MODULE_STORE_TITLE = 'Store Mode';
+const MODULE_CFG_MODULE_STORE_MODE_TITLE = 'Store Mode';

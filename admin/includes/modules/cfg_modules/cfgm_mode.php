@@ -21,7 +21,7 @@
     const DIRECTORY = DIR_FS_CATALOG . 'includes/modules/mode/';
     const LANGUAGE_DIRECTORY = DIR_FS_CATALOG . 'includes/languages/';
     const KEY = 'MODULE_STORE_INSTALLED';
-    const TITLE = MODULE_CFG_MODULE_STORE_TITLE;
+    const TITLE = MODULE_CFG_MODULE_STORE_MODE_TITLE;
     const TEMPLATE_INTEGRATION = true;
 
   }
