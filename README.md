@@ -2,8 +2,8 @@
 ---------------------------------
 
 Compatibility: Phoenix Cart 1.0.8.8+
-Tested with Phoenix 1.0.8.14
-PHP 7.0-7.4
+Tested with Phoenix 1.0.8.20
+PHP 7.0-8.0
 
 
 ## WHAT IS IT?
@@ -60,7 +60,7 @@ NOTE: Do not add any external resources like images/store logo to this page. Thi
 any additional resource of the store installation to ensure it will show correct in any situation.
 4. In Admin =>Modules => Content[header] install and configure the module 'Store
 Mode Message'.
-5. In Admin =>Modules => Store install and configure the module 'Store Mode'.
+5. In Admin =>Modules => Store Mode install and configure the module 'Store Mode'.
 6. Customize the language definitions of the messages
    1. Permanent messages for Checkout and Account Modes:
 /includes/languages/mylanguage/modules/content/header/cm_header_store_mode.php

@@ -1,9 +1,9 @@
 <?php
 /*
-  Store Mode 1.0.8.8
+  Store Mode 1.6.0
   by @raiwa
-  info@oscaddons.com
-  www.oscaddons.com
+  raiwa@phoenixcartaddons.com
+  www.phoenixcartaddons.com
   
   updated for Phoenix Pro by @ecartz
 
@@ -47,8 +47,9 @@
 // change once the store mode header tag module is installed, changes will be overwritten if you install again.
   const TEXT_STORE_NAME = 'Store Mode'; // your store name should be auto filled in on installing the store mode header tag module
 
-  $store_mail = 'info@oscaddons.com'; // your store mail should be auto filled in on installing the store mode header tag module. Comment to disable Mail
+  $store_mail = 'info@example.com'; // your store mail should be auto filled in on installing the store mode header tag module. Comment to disable Mail
 
+  date_default_timezone_set(date_default_timezone_get()); // your store time zone should be auto filled in on installing the store mode  module.
 
   $back_time = empty($_GET['back_time']) ? date('H:i', strtotime('now +2 hour')) : $_GET['back_time'];
 

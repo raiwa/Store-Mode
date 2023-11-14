@@ -3,7 +3,7 @@
   $Id: cm_header_store_mode.php
   $Loc: catalog/includes/modules/content/header/
 
-  Store Mode 1.0.8.8
+  Store Mode 1.5.0
   by @raiwa
   info@oscaddons.com
   www.oscaddons.com
@@ -124,7 +124,7 @@
       return [
         $this->config_key_base . 'VERSION_INSTALLED' => [
           'title' => 'Current Version',
-          'value' => '1.0.8.8',
+          'value' => '1.5.0',
           'desc' => 'Version info. It is read only',
           'set_func' => 'cm_header_store_mode::readonly(',
         ],

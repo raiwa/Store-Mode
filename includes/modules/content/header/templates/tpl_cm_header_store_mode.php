@@ -4,7 +4,7 @@
 
 <?php
 /*
-  Store Mode 1.0.8.8
+  Store Mode 1.5.0
   by @raiwa
   info@oscaddons.com
   www.oscaddons.com

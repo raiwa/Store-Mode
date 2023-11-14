@@ -3,10 +3,10 @@
   $Id: st_store_mode.php
   $Loc: catalog/includes/modules/header_tags/
 
-  Store Mode 1.0.8.8
+  Store Mode 1.6.0
   by @raiwa
-  info@oscaddons.com
-  www.oscaddons.com
+  raiwa@phoenixcartaddons.com
+  www.phoenixcartaddons.com
   
   updated for Phoenix Pro by @ecartz
 
@@ -28,7 +28,7 @@
     public function __construct() {
       parent::__construct(__FILE__);
 
-      $this->description .= '<p>by @raiwa <u><a target="_blank" href="http://www.oscaddons.com">www.oscaddons.com</a></u></p>';
+      $this->description .= '<p>by @raiwa <u><a target="_blank" href="http://www.phoenixcartaddons.com">www.phoenixcartaddons.com</a></u></p>';
       if (!file_exists(DIR_FS_CATALOG . '/includes/hooks/shop/system/storeMode.php')) {
         $this->enabled = false;
         $this->description = '<div class="alert alert-danger" role="alert">' .
@@ -59,7 +59,7 @@
       $config_parameters = [
         static::CONFIG_KEY_BASE . 'VERSION_INSTALLED' => [
           'title' => 'Current Version',
-          'value' => '1.0.8.8',
+          'value' => '1.5.0',
           'desc' => 'Version info. It is read only',
           'set_func' => 'st_store_mode::readonly(',
         ],
@@ -167,9 +167,11 @@
         $file = file_get_contents(DIR_FS_CATALOG . 'maintenance.php');
       // add store name
         $store_name_esc = str_replace('\'', '\\\'', STORE_NAME);
-        $file = preg_replace('%define\(\'TEXT_STORE_NAME\', \'(.*)\'\);%', 'define(\'TEXT_STORE_NAME\', \'' . $store_name_esc . '\');', $file);
+        $file = preg_replace('%const TEXT_STORE_NAME = \'(.*)\';%', 'const TEXT_STORE_NAME = \'' . $store_name_esc . '\';', $file);
       // add store mail
         $file = preg_replace('%\$store_mail = \'(.*)\';%', '\$store_mail = \'' . STORE_OWNER_EMAIL_ADDRESS . '\';', $file);
+      // add store time zone
+        $file = preg_replace('%date_default_timezone_set((.*));%', 'date_default_timezone_set(\'' . date_default_timezone_get() . '\');', $file);
         file_put_contents(DIR_FS_CATALOG . 'maintenance.php', $file);
       }
     }
