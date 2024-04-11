@@ -139,7 +139,7 @@ if ( defined('TEXT_MAINTENANCE_MESSAGE_ENGLISH') && TEXT_MAINTENANCE_MESSAGE_ENG
       echo  TEXT_MAINTENANCE_STATUS_ENGLISH;
     ?>
     <form>
-      <input type="button"  class="button" value="Continue" onclick="window.location.href='<?= dirname($_SERVER["REQUEST_URI"])."/index.php?language=en" ?>'" />
+      <input type="button"  class="button" value="Continue" onclick="window.location.href='<?= dirname($_SERVER["REQUEST_URI"]) . "?language=en" ?>'" />
     </form>
     <?php
     }
@@ -162,7 +162,7 @@ if (defined('TEXT_MAINTENANCE_MESSAGE_ESPANOL') && TEXT_MAINTENANCE_MESSAGE_ESPA
       echo  TEXT_MAINTENANCE_STATUS_ESPANOL;
     ?>
     <form>
-      <input type="button"  class="button" value="Continuar" onclick="window.location.href='<?= dirname($_SERVER["REQUEST_URI"])."/index.php?language=es" ?>'" />
+      <input type="button"  class="button" value="Continuar" onclick="window.location.href='<?= dirname($_SERVER["REQUEST_URI"]) . "?language=es" ?>'" />
     </form>
     <?php
     }
@@ -185,7 +185,7 @@ if (defined('TEXT_MAINTENANCE_MESSAGE_GERMAN') && TEXT_MAINTENANCE_MESSAGE_GERMA
       echo  TEXT_MAINTENANCE_STATUS_GERMAN;
     ?>
     <form>
-      <input type="button"  class="button" value="Weiter" onclick="window.location.href='<?= dirname($_SERVER["REQUEST_URI"])."/index.php?language=de" ?>'" />
+      <input type="button"  class="button" value="Weiter" onclick="window.location.href='<?= dirname($_SERVER["REQUEST_URI"]) . "?language=de" ?>'" />
     </form>
     <?php
     }
