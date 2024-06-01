@@ -1,28 +1,25 @@
 <?php
 /*
-  Store Mode 1.6.0
-  by @raiwa
-  raiwa@phoenixcartaddons.com
-  www.phoenixcartaddons.com
-  
-  updated for Phoenix Pro by @ecartz
-
-  Copyright (c) 2021, Rainer Schmied
-  All rights reserved.
-
-  CE Phoenix, E-Commerce made Easy
-  https://phoenixcart.org
-
-  Copyright (c) 2021 Phoenix Cart
-
-  Released under the GNU General Public License
-
-  This is the custom error 503 "Service Temporarily Unavailable" page.
-  The 503 redirect code is in the main .htaccess file.
-*********************************************************************************************************************************
-  NOTE: Do not add any external resources like images/store logo to this page.
-  This page must not require any additional resource of the store installation to ensure it will show correct in any situation.
-*********************************************************************************************************************************
+* $Id: maintenance.php
+* $Loc: /
+*
+* Name: StoreMode
+* Version: 1.6.2
+* Release Date: 06/01/2024
+* Author: Rainer Schmied
+* 	 phoenixcartaddonsaddons.com / raiwa@phoenixcartaddons.com
+*
+* License: Released under the GNU General Public License
+*
+* Comments: Author: [Rainer Schmied @raiwa]
+* Author URI: [www.phoenixcartaddons.com]
+* 
+* CE Phoenix, E-Commerce made Easy
+* https://phoenixcart.org
+* 
+* Copyright (c) 2021 Phoenix Cart
+* 
+* 
 */
 
 // EDIT BEGIN
@@ -47,9 +44,9 @@
 // change once the store mode header tag module is installed, changes will be overwritten if you install again.
   const TEXT_STORE_NAME = 'Store Mode'; // your store name should be auto filled in on installing the store mode header tag module
 
-  $store_mail = 'info@example.com'; // your store mail should be auto filled in on installing the store mode header tag module. Comment to disable Mail
+  $store_mail = 'raiwa@phoenixcartaddons.com'; // your store mail should be auto filled in on installing the store mode header tag module. Comment to disable Mail
 
-  date_default_timezone_set(date_default_timezone_get()); // your store time zone should be auto filled in on installing the store mode  module.
+  date_default_timezone_set('Europe/Berlin'); // your store time zone should be auto filled in on installing the store mode  module.
 
   $back_time = empty($_GET['back_time']) ? date('H:i', strtotime('now +2 hour')) : $_GET['back_time'];
 
@@ -185,7 +182,7 @@ if (defined('TEXT_MAINTENANCE_MESSAGE_GERMAN') && TEXT_MAINTENANCE_MESSAGE_GERMA
       echo  TEXT_MAINTENANCE_STATUS_GERMAN;
     ?>
     <form>
-      <input type="button"  class="button" value="Weiter" onclick="window.location.href='<?= dirname($_SERVER["REQUEST_URI"]) . "?language=de" ?>'" />
+      <input type="button"  class="button" value="Weiter" onclick="window.location.href='<?= dirname($_SERVER["REQUEST_URI"])."?language=de" ?>'" />
     </form>
     <?php
     }

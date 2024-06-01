@@ -1,24 +1,25 @@
 <?php
 /*
-  $Id: storeMode.php
-  $Loc: catalog/includes/hooks/shop/system/
-
-  Store Mode 1.5.1
-  by @raiwa
-  info@oscaddons.com
-  www.oscaddons.com
-  
-  updated for Phoenix Pro by @ecartz
-
-  Copyright (c) 2021, Rainer Schmied
-  All rights reserved.
-
-  CE Phoenix, E-Commerce made Easy
-  https://phoenixcart.org
-
-  Copyright (c) 2021 Phoenix Cart
-
-  Released under the GNU General Public License
+* $Id: storeMode.php
+* $Loc: /includes/hooks/shop/system/
+*
+* Name: StoreMode
+* Version: 1.6.2
+* Release Date: 06/01/2024
+* Author: Rainer Schmied
+* 	 phoenixcartaddonsaddons.com / raiwa@phoenixcartaddons.com
+*
+* License: Released under the GNU General Public License
+*
+* Comments: Author: [Rainer Schmied @raiwa]
+* Author URI: [www.phoenixcartaddons.com]
+* 
+* CE Phoenix, E-Commerce made Easy
+* https://phoenixcart.org
+* 
+* Copyright (c) 2021 Phoenix Cart
+* 
+* 
 */
 
 class hook_shop_system_storeMode {

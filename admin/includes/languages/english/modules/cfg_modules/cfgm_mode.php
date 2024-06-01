@@ -1,21 +1,25 @@
 <?php
 /*
-  $Id: cfgm_store.php
-  $Loc: catalog/admin/includes/languages/english/modules/cfg_modules/
-
-  Store Mode 1.5.2
-  by @raiwa
-  info@oscaddons.com
-  www.oscaddons.com
-  
-  updated for Phoenix Pro by @ecartz
-
-  CE Phoenix, E-Commerce made Easy
-  https://phoenixcart.org
-
-  Copyright (c) 2021 Phoenix Cart
-
-  Released under the GNU General Public License
+* $Id: cfgm_mode.php
+* $Loc: /admin/includes/languages/english/modules/cfg_modules/
+*
+* Name: StoreMode
+* Version: 1.6.2
+* Release Date: 06/01/2024
+* Author: Rainer Schmied
+* 	 phoenixcartaddonsaddons.com / raiwa@phoenixcartaddons.com
+*
+* License: Released under the GNU General Public License
+*
+* Comments: Author: [Rainer Schmied @raiwa]
+* Author URI: [www.phoenixcartaddons.com]
+* 
+* CE Phoenix, E-Commerce made Easy
+* https://phoenixcart.org
+* 
+* Copyright (c) 2021 Phoenix Cart
+* 
+* 
 */
 
 const MODULE_CFG_MODULE_STORE_MODE_TITLE = 'Store Mode';

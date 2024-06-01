@@ -1,24 +1,25 @@
 <?php
 /*
-  $Id: cm_header_store_mode.php
-  $Loc: catalog/includes/languages/espanol/modules/content/header/
-
-  Store Mode 1.5.0
-  by @raiwa
-  info@oscaddons.com
-  www.oscaddons.com
-  
-  updated for Phoenix Pro by @ecartz
-
-  Copyright (c) 2021, Rainer Schmied
-  All rights reserved.
-
-  CE Phoenix, E-Commerce made Easy
-  https://phoenixcart.org
-
-  Copyright (c) 2021 Phoenix Cart
-
-  Released under the GNU General Public License
+* $Id: cm_header_store_mode.php
+* $Loc: /includes/languages/english/modules/content/header/
+*
+* Name: StoreMode
+* Version: 1.6.2
+* Release Date: 06/01/2024
+* Author: Rainer Schmied
+* 	 phoenixcartaddonsaddons.com / raiwa@phoenixcartaddons.com
+*
+* License: Released under the GNU General Public License
+*
+* Comments: Author: [Rainer Schmied @raiwa]
+* Author URI: [www.phoenixcartaddons.com]
+* 
+* CE Phoenix, E-Commerce made Easy
+* https://phoenixcart.org
+* 
+* Copyright (c) 2021 Phoenix Cart
+* 
+* 
 */
 
   const MODULE_CONTENT_HEADER_STORE_MODE_TITLE                 = 'Store Mode Message';
