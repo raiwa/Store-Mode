@@ -1,10 +1,16 @@
 # Store Mode
 ---------------------------------
 
-Compatibility: Phoenix Cart 1.0.8.8+
-Tested with Phoenix 1.0.9.3
+Compatibility: Phoenix Cart 1.0.9.4+
+Tested with Phoenix 1.0.9.4
 PHP 7.0-8.3
 
+
+## Update from 1.6.2 to 1.6.3
+
+1. Upload and replace the files: 
+includes\modules\content\header\cm_header_store_mode.php
+includes\modules\content\header\templates\tpl_cm_header_store_mode.php
 
 ## Update from 1.6.1 to 1.6.2
 

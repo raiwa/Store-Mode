@@ -4,8 +4,8 @@
 * $Loc: /includes/modules/mode/
 *
 * Name: StoreMode
-* Version: 1.6.2
-* Release Date: 06/01/2024
+* Version: 1.6.3
+* Release Date: 07/30/2024
 * Author: Rainer Schmied
 * 	 phoenixcartaddonsaddons.com / raiwa@phoenixcartaddons.com
 *

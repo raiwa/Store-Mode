@@ -1,4 +1,4 @@
-<div class="col-sm-<?= $content_width, ' ', MODULE_CONTENT_HEADER_STORE_MODE_CONTENT_ALIGN ?> cm-header-store-mode align-self-center">
+<div class="<?= MODULE_CONTENT_HEADER_STORE_MODE_CONTENT_WIDTH .  ' ' . MODULE_CONTENT_HEADER_STORE_MODE_CONTENT_ALIGN ?> cm-header-store-mode align-self-center">
   <?= $output ?>
 </div>
 

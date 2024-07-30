@@ -4,8 +4,8 @@
 * $Loc: /includes/modules/content/header/
 *
 * Name: StoreMode
-* Version: 1.6.2
-* Release Date: 06/01/2024
+* Version: 1.6.3
+* Release Date: 07/30/2024
 * Author: Rainer Schmied
 * 	 phoenixcartaddonsaddons.com / raiwa@phoenixcartaddons.com
 *
@@ -113,7 +113,6 @@
         }
 
         if ( $output != '') { // show message
-          $content_width = (int)MODULE_CONTENT_HEADER_STORE_MODE_CONTENT_WIDTH;
 
           $tpl_data = [ 'group' => $this->group, 'file' => __FILE__ ];
           include 'includes/modules/content/cm_template.php';
@@ -136,10 +135,9 @@
           'set_func' => "Config::select_one(['True', 'False'], ",
         ],
         $this->config_key_base . 'CONTENT_WIDTH' => [
-          'title' => 'Content Width',
-          'value' => '12',
-          'desc' => 'What width container should the content be shown in?',
-          'set_func' => "Config::select_one(['12', '11', '10', '9', '8', '7', '6', '5', '4', '3', '2', '1'], ",
+          'title' => 'Content Container',
+          'value' => 'col-sm-12',
+          'desc' => 'What container should the content be shown in? (col-*-12 = full width, col-*-6 = half width).',
         ],
         $this->config_key_base . 'SORT_ORDER' => [
           'title' => 'Sort Order',
